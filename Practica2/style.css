@@ -1,0 +1,28 @@
+h2{
+	height: 10%;
+}
+
+h3{
+	height: 8%;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: Blippo, fantasy;
+}
+
+p{
+	font-family: Helvetica, sans-serif;
+	font-size: 1rem;
+}
+
+body>h2, body>h3, center>h3, .rest>h2, .rest>h3
+{
+	-webkit-box-shadow: 8px 19px 5px 0px rgba(179,173,179,1);
+	-moz-box-shadow: 8px 19px 5px 0px rgba(179,173,179,1);
+	box-shadow: 8px 19px 5px 0px rgba(179,173,179,1);
+	background-color: grey;
+}
+
+div>h2, div>h3{
+	 text-shadow: 3px 3px 2px grey;
+}
